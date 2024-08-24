@@ -21,8 +21,16 @@
                 <label for="">Data de Nascimento:</label>
                 <input type="date">
             <h3>Dados de endereço</h3>
-
-            <button>Cadastrar-se</button>                
+            <P>CEP: </P>
+            <input type="text" id="cep" name="cep" pattern="\d{5}-\d{3}" placeholder="12345-678" required>
+            <p>Rua: </p>
+            <input type="text" placeholder= "Digite aqui° " required>
+            <p>Número: </p>
+            <input type="number" placeholder= "N° " required>
+            <P>Bairro: </P>
+            <input type="text" placeholder="Digite aqui" required>
+            <P>Cidade: </P>
+            <input type="text" pattern="^[A-Za-zÀ-ÖØ-ÿ]{2,50}/[A-Z]{2}$" placeholder="Cidade/UF" required>
         </form>
     </div>
 </body>
