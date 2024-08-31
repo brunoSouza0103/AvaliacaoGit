@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.main-container #formulario{
+    display: grid;
+    gap: 5px;
+}
+
+button, input{
+    width: 100%;
+    padding: 1%;
+} 
